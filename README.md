@@ -13,7 +13,7 @@
   A music player that consumes the Spotify Web API. Features user authentication by way of Express routes and custom hooks that use tokens. Styled with Bootstrap.
   <hr>
   <div id="instructions"><h2>Instructions</h2> </div>
-  <p>This is a work in progress that will ultimately be published to https://tunespot.herokuapp.com/. For the time being, you are welcome to clone this code to your machine, run npm start, and test the login button. Currently, it's set to refresh as the token expires.</p>
+  <p>This is a work in progress. Published to https://tunespot.herokuapp.com/.Currently, it's set to refresh as the token expires.</p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
   <p> Bootstrap, Node/Express.js, React.js</p>
