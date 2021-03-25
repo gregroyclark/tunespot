@@ -15,7 +15,7 @@
   <div id="instructions"><h2>Instructions</h2> </div>
   <p>This is a work in progress.
   Published to https://tunespot.herokuapp.com/.
-  Current stage is authentication. Right now, it's set to refresh as the access token expires.</p>
+  Currently implementing user authentication. For the moment, the app is set to refresh as the access token expires.</p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
   <p> Bootstrap, Node/Express.js, React.js</p>
