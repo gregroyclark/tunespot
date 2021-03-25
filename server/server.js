@@ -18,9 +18,7 @@ app.post('/refresh', (req, res) => {
 
     spotifyApi.refreshAccessToken().then(
         (data) => {
-          console.log('The access token has been refreshed!');
-      
-          spotifyApi.setAccessToken(data.body['access_token']);
+          console.log(data)
         }).catch(() => {
             res.sendStatus(400)
         })
