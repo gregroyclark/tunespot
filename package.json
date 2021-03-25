@@ -6,6 +6,7 @@
   },
   "description": "",
   "main": "index.js",
+  "proxy": "http://localhost",
   "scripts": {
     "start": "npm run start:dev",
     "start:prod": "cd server && node server.js",
