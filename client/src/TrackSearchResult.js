@@ -1,4 +1,5 @@
 import React from 'react';
+import chooseTrack from './Dashboard'
 
 const TrackSearchResult = ({ track }) => {
     function handlePlay() {
