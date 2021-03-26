@@ -10,7 +10,8 @@ const useAuth = (code) => {
         axios
             .post('http://localhost:3001/login', {
                 code,
-            }).then(res => {
+            })
+            .then(res => {
                 setAccessToken(res.data.accessToken)
                 setRefreshToken(res.data.refreshToken)
                 setExpiresIn(res.data.expiresIn)
@@ -32,7 +33,6 @@ const useAuth = (code) => {
                 .then(res => {
                     setAccessToken(res.data.accessToken)
                     setExpiresIn(res.data.expiresIn)
-                    window.history.pushState({}, null, '/')
                 })
                 .catch(() => {
                     window.location = '/'
