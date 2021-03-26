@@ -23,6 +23,19 @@ export default function Dashboard({ code }) {
     }
 
     useEffect(() => {
+        if (!playingTrack) return
+
+        axios.get('http://localhost:3001/lyrics', {
+            params: {
+                track: playingTrack.title,
+                artist: playingTrack.artist
+            }
+        }).then(res => {
+            setLyrics(res.data.lyrics)
+        })
+    }, [playingTrack])
+
+    useEffect(() => {
         if (!accessToken) return
         spotifyApi.setAccessToken(accessToken)
     }, [accessToken])
