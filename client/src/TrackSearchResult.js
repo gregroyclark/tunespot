@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TrackSearchResult = ({ track, chooseTrack }) => {
+export default function TrackSearchResult({ track, chooseTrack }) {
     function handlePlay() {
         chooseTrack(track)
     }
@@ -18,5 +18,3 @@ const TrackSearchResult = ({ track, chooseTrack }) => {
         </div>
     );
 }
-
-export default TrackSearchResult;
