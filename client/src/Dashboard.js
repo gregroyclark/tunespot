@@ -26,14 +26,15 @@ export default function Dashboard({ code }) {
     useEffect(() => {
         if (!playingTrack) return
 
-        axios.get('http://localhost:3001/lyrics', {
-            params: {
-                track: playingTrack.title,
-                artist: playingTrack.artist
-            }
-        }).then(res => {
-            setLyrics(res.data.lyrics)
-        })
+        axios
+            .get('http://localhost:3001/lyrics', {
+                params: {
+                    track: playingTrack.title,
+                    artist: playingTrack.artist,
+                }
+            }).then(res => {
+                setLyrics(res.data.lyrics)
+            })
     }, [playingTrack])
 
     useEffect(() => {
@@ -48,8 +49,8 @@ export default function Dashboard({ code }) {
         let cancel = false
         spotifyApi.searchTracks(search).then(res => {
             if (cancel) return
-            setSearchResults(res.body.tracks.items.map(track => {
-
+            setSearchResults(
+                res.body.tracks.items.map(track => {
                 const smallestAlbumImage = track.album.images.reduce(
                     (smallest, image) => {
                         if (image.height < smallest.height) return image 
