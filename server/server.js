@@ -9,6 +9,10 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('client/build'));
+}
+
 app.post('/refresh', (req, res) => {
     const refreshToken = req.body.refresh_token
     const spotifyApi = new SpotifyWebApi({
