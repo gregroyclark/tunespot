@@ -15,7 +15,7 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build",
-    "server": "cd server && node server.js"
+    "server": "cd server && nodemon server.js"
   },
   "repository": {
     "type": "git",
