@@ -6,6 +6,8 @@ import { Container, Form } from 'react-bootstrap';
 import SpotifyWebApi from 'spotify-web-api-node';
 import axios from 'axios';
 
+require('dotenv').config()
+
 const spotifyApi = new SpotifyWebApi({
 	clientId: process.env.CLIENT_ID,
 });
