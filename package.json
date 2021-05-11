@@ -6,7 +6,7 @@
   },
   "description": "",
   "main": "index.js",
-  "proxy": "http://localhost:3000",
+  "proxy": "https://tunespot.herokuapp.com",
   "scripts": {
     "start": "npm run start:dev",
     "start:prod": "cd server && node server.js",
