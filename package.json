@@ -14,7 +14,11 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
+<<<<<<< HEAD
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
+=======
+    "heroku-postbuild": "npm run build",
+>>>>>>> parent of 54a0fb4... changed server to run node instead of nodemon
     "server": "cd server && nodemon server.js"
   },
   "repository": {
