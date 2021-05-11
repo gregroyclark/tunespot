@@ -6,7 +6,7 @@
   },
   "description": "",
   "main": "index.js",
-  "proxy": "https://tunespot.herokuapp.com",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "npm run start:dev",
     "start:prod": "cd server && node server.js",
@@ -14,7 +14,7 @@
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client",
     "server": "cd server && nodemon server.js"
   },
   "repository": {
