@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 app.post('/refresh', (req, res) => {
-    const refreshToken = req.body.refreshToken
+    const refreshToken = req.body.refresh_token
     const spotifyApi = new SpotifyWebApi({
         redirectUri: process.env.REDIRECT_URI,
         clientId: process.env.CLIENT_ID,
@@ -22,8 +22,8 @@ app.post('/refresh', (req, res) => {
         .refreshAccessToken()
         .then(data => {
           res.json({
-              accessToken: data.body.accessToken,
-              expiresIn: data.body.expiresIn,
+              accessToken: data.body.access_token,
+              expiresIn: data.body.expires_in,
           })
         })
         .catch(err => {
