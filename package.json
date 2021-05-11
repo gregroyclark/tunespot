@@ -5,8 +5,8 @@
     "node": ">=14.x"
   },
   "description": "",
-  "main": "index.js",
-  "proxy": "http://localhost:3000",
+  "main": "server.js",
+  "proxy": "http://localhost:3001",
   "scripts": {
     "start": "npm run start:dev",
     "start:prod": "cd server && node server.js",
