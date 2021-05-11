@@ -27,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/gregroyclark/tunespot/issues"
   },
-  "homepage": "https://github.com/gregroyclark/tunespot#readme",
+  "homepage": "/",
   "dependencies": {
     "concurrently": "^6.0.0"
   }
