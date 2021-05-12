@@ -1,15 +1,22 @@
 {
-  "name": "server",
+  "name": "tunespot",
   "version": "1.0.0",
   "engines": {
+    "npm": ">=6.x",
     "node": ">=14.x"
   },
   "description": "",
   "main": "server.js",
   "proxy": "http://localhost:3000",
   "scripts": {
-    "start": "cd server && node server.js",
-    "heroku-postbuild": "cd server && npm install && cd .. && cd client && npm install && npm run build"
+    "start": "npm run start:dev",
+    "start:prod": "cd server && node server.js",
+    "start:dev": "concurrently \"npm run start:prod\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build",
+    "server": "cd server && nodemon server.js"
   },
   "repository": {
     "type": "git",
