@@ -16,7 +16,13 @@
   <p><img src="assets/TuneSpot.gif"></p>
   <hr>
   <div id="instructions"><h2>Instructions</h2> </div>
-  <p>Currently implementing user authentication routes for deployed. For the moment, the app must be run locally. Requires Spotify premium account.</p>
+  <p>
+    Currently implementing user authentication routes for deployed application. 
+    For the moment, the app must be run locally.
+    Clone or fork this repository.
+    In terminal, run `npm start`
+    Log in (requires Spotify premium account).
+  </p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
   <p> Bootstrap, Node/Express.js, React.js, Spotify Web API</p>
