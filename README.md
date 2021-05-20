@@ -22,7 +22,7 @@
   <p> Bootstrap, Node/Express.js, React.js, Spotify Web API</p>
   <hr>
   <div id="license"><h2>License</h2></div>
-  <p><img align="left" src= MIT></p><br>
+  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p><br>
   <hr>
   <hr>
   <div id="contr"><h2>Contributors</h2> </div>
