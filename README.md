@@ -51,7 +51,7 @@
   <hr>
   
   <div id="tech"><h2>Technology</h2></div>           
-  <p> React.js, Node/Express.js, Spotify Web API, Bootstrap</p>
+  <p>React.js, Node/Express.js, Spotify Web API, Bootstrap</p>
   
   <hr>
   
@@ -65,7 +65,7 @@
 
   <h4>
     Github:
-      <a href="https://github.com/gregroyclark/">
+      <a href="https://github.com/gregroyclark/" target="_blank">
     https://github.com/gregroyclark/
       </a>
   
