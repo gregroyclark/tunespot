@@ -17,10 +17,14 @@
   <hr>
   <div id="instructions"><h2>Instructions</h2> </div>
   <p>
-    Currently implementing user authentication routes for deployed application. 
+    ** Currently implementing authentication routes for deployed application. **
+    <br>
     For the moment, the app must be run locally.
+    <br>
     Clone or fork this repository.
+    <br>
     In terminal, run `npm start`
+    <br>
     Log in (requires Spotify premium account).
   </p>
   <hr>
