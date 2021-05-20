@@ -1,18 +1,19 @@
 <h1 align="center">TuneSpot</h1> 
   <h2>Table of Contents<h2>
   <ul>
-  <li><a href="#descrip">Description</a></li>  
-  <li><a href="#instructions">Instructions</a></li> 
-  <li><a href="#tech">Technology</a></li> 
+  <li><a href="#descrip">Description</a></li>
+  <li><a href="#demo">Demo</a></li>
+  <li><a href="#instructions">Instructions</a></li>
+  <li><a href="#tech">Technology</a></li>
   <li><a href="#license">License</a></li>
-  <li><a href="#screen">Screenshots</a></li> 
+  <li><a href="#screen">Screenshots</a></li>
   <li><a href="#contr">Contributors</a></li>
   </ul>
     <hr>
   <div id="descrip"><h2>Description</h2> </div>
   A music player that consumes the Spotify Web API. Features user authentication by way of Express routes and custom hooks that use tokens. Styled with Bootstrap.
   <hr>
-  <div id="screen"><h2>Screenshots</h2></div>
+  <div id="demo"><h2>Demo</h2></div>
   <p><img src="assets/TuneSpot.gif"></p>
   <hr>
   <div id="instructions"><h2>Instructions</h2> </div>
