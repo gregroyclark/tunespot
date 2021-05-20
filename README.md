@@ -56,13 +56,17 @@
   <hr>
   
   <div id="license"><h2>License</h2></div>
-  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"> </p>
-    
+  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p>
+  
+  <br>
   <hr>
   
   <div id="contributors"><h2>Contributors</h2> </div>
 
-  <h4>Github:<h4>
-  <a href="https://github.com/gregroyclark/">
+  <h4>
+    Github:
+      <a href="https://github.com/gregroyclark/">
     https://github.com/gregroyclark/
-  </a>
+      </a>
+  
+  <h4>
