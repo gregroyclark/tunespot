@@ -63,10 +63,10 @@
   
   <div id="contributors"><h2>Contributors</h2> </div>
 
-  <h4>
+  <p>
     Github:
       <a href="https://github.com/gregroyclark/" target="_blank">
-    https://github.com/gregroyclark/
+        https://github.com/gregroyclark/
       </a>
   
-  <h4>
+  </p>
