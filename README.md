@@ -37,8 +37,9 @@
 
   <div id="instructions"><h2>Instructions</h2> </div>
   <p>
-    ** For the moment, the app must be run locally. 
-    Currently implementing authentication routes for deployed application.
+    ** Currently implementing authentication routes for deployed application.
+    <br>
+    For the moment, the app must be run locally:
     <br>
     - Clone or fork this repository.
     <br>
@@ -55,7 +56,7 @@
   <hr>
   
   <div id="license"><h2>License</h2></div>
-  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p>
+  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue">The MIT license</p>
     
   <hr>
   
