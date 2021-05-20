@@ -56,7 +56,7 @@
   <hr>
   
   <div id="license"><h2>License</h2></div>
-  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue">The MIT license</p>
+  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"> </p>
     
   <hr>
   
